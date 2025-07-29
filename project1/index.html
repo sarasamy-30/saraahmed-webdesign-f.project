@@ -1,0 +1,2894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>home page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo-icon.jpg">
+</head>
+<body>
+        <button class="position-fixed bottom-0 end-0 bg-black text-white z-3 arrow" id="up">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+        <nav class="border-bottom border-light-subtle pb-3 sticky-on-scroll ">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mt-4 nav-one">
+            <div class="d-none list-left col-5">
+          <a class="btn fs-3" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="bi bi-list"></i>
+          </a>  
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+<div class="offcanvas-header d-flex align-items-center w-100 bg-body-secondary p-0 border-bottom">
+  <ul class="nav w-100 row g-0 align-items-stretch mb-0" id="pills-tab" role="tablist">
+    <li class="nav-item col-2">
+      <button class="nav-link active text-black d-flex align-items-center justify-content-center h-100 w-100 border-0 rounded-0"
+        id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-homee" type="button" role="tab"
+        aria-controls="pills-homee" aria-selected="true">
+        <i class="bi bi-list fs-4"></i>
+      </button>
+    </li>
+    <li class="nav-item col-8">
+      <button class="nav-link text-white text-uppercase fw-bold d-flex align-items-center justify-content-center h-100 w-100 border-0 rounded-0"
+        id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profilee" type="button" role="tab"
+        aria-controls="pills-profilee" aria-selected="false">
+        SHOP BY CATEGORIES <span class="ps-2">+</span>
+      </button>
+    </li>
+    <li class="nav-item col-2">
+      <div class="h-100 w-100 d-flex align-items-center justify-content-center">
+        <button type="button" class="btn-close m-0 p-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </li>
+
+  </ul>
+</div>
+
+
+            <div class="offcanvas-body">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-homee" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="container">
+                <div class="d-flex flex-column gap-3">
+                      <div class="d-flex justify-content-between">
+                        <a href="" class="text-black text-decoration-none">Homepage</a>
+                        <a href=""class="text-black text-decoration-none">+</a>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a href="" class="text-black text-decoration-none">Categories</a>
+                        <a href=""class="text-black text-decoration-none">+</a>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a href="" class="text-black text-decoration-none">products</a>
+                        <a href=""class="text-black text-decoration-none">+</a>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a href="" class="text-black text-decoration-none">pages</a>
+                        <a href=""class="text-black text-decoration-none">+</a>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a href="" class="text-black text-decoration-none">About Us</a>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a href="" class="text-black text-decoration-none">Blog</a>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                          <a href=""  class=" p-0 m-0 fw-normal text-black text-decoration-none" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+                          <img src="images/coupon.png" alt="" style="width: 20px;">
+                        Best Discounts
+                              
+                            </a>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <a href="" class="text-black text-decoration-none text-body-secondary">recently viewed</a>
+                        <a href=""class="text-black text-decoration-none">+</a>
+                      </div>
+                </div>
+                <hr>
+                <div class="d-flex flex-column gap-2">
+                    <div class="d-flex gap-2 ">
+                      <a href="" class="text-body-secondary text-decoration-none">
+                      <i class="bi bi-heart"></i>
+                      <span>Wishlist</span>
+                      <span>(0)</span>
+                      </a>
+                    </div>
+                    <div class="d-flex gap-2 ">
+                      <a href=""class="text-body-secondary text-decoration-none">
+                    <i class="bi bi-person "></i><span> Account</span>
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex flex-column gap-3">
+                  <div class="d-flex flex-wrap gap-3">
+                    <a class="text-black " href="#"><img src="images/english.png">English</a>
+                    <a class="text-black text-decoration-none" href="#"> <img src="images/espanol.png">   Español</a>
+                    <a class="text-black text-decoration-none" href="#"><img src="images/francais.png">   Français</a>
+                    <a class="text-black text-decoration-none" href="#"><img src="images/portugues.png">  portugues</a>
+                  </div>
+                  <div class="d-flex flex-wrap gap-3">
+                    <a class="text-black " href="#">USD</a>
+                    <a class="text-black text-decoration-none" href="#">EUR</a>
+                    <a class="text-black text-decoration-none" href="#">BRL</a>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profilee" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <div class="container">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div class="red">
+                              <a href=""><img src="images/fashion.png" class=" p-2 w-30" ></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        fashion
+                              </a>
+                              </div>    
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/phone.png" class=" p-2 w-20"></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        phone & tablets
+                              </a>
+                              </div>    
+
+
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/laptop.png" class=" p-2  w-20"></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                       laptop & computer
+                              </a>
+                              </div>    
+
+
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/aduio.png" class=" p-2  w-20"></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        Aduio & videos
+                              </a>
+                              </div>    
+
+
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/photo.png" class=" p-2 w-20"></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        camera & photo
+                              </a>
+                              </div>    
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/home.png" class=" p-2  w-20"></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        home & decor
+                              </div>    
+
+
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/bueaty.png" class=" p-2  w-30"></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        bueaty
+                              </a>
+                              </div>    
+
+
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/game.png" class=" p-2  w-30"></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        game
+                              </a>
+                              </div>    
+
+
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                          <div class="d-flex justify-content-between align-items-center ">
+                              <div >
+                              <a href=""><img src="images/autopart.png" class=" p-2  w-25 "></a>
+                              <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        autopart
+                              </a>
+                              </div>    
+                          <a href=""><i class="bi bi-chevron-right text-dark  "></i></a>
+                          </div>
+                          <hr class="w-100 m-1">
+                      
+                      <div class="d-flex flex-column gap-2 mt-3">
+                    <div class="d-flex gap-2 ">
+                      <a href="" class="text-body-secondary text-decoration-none">
+                      <i class="bi bi-heart"></i>
+                      <span>Wishlist</span>
+                      <span>(0)</span>
+                      </a>
+                    </div>
+                    <div class="d-flex gap-2 ">
+                      <a href=""class="text-body-secondary text-decoration-none">
+                    <i class="bi bi-person "></i><span> Account</span>
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex flex-column gap-3">
+                  <div class="d-flex flex-wrap gap-3">
+                    <a class="text-black " href="#"><img src="images/english.png">English</a>
+                    <a class="text-black text-decoration-none" href="#"> <img src="images/espanol.png">   Español</a>
+                    <a class="text-black text-decoration-none" href="#"><img src="images/francais.png">   Français</a>
+                    <a class="text-black text-decoration-none" href="#"><img src="images/portugues.png">  portugues</a>
+                  </div>
+                  <div class="d-flex flex-wrap gap-3">
+                    <a class="text-black " href="#">USD</a>
+                    <a class="text-black text-decoration-none" href="#">EUR</a>
+                    <a class="text-black text-decoration-none" href="#">BRL</a>
+
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          </div>
+            <div class="col-md-2 col-3">
+              <div class="col-md-7  col-9 justify-content-center">
+                <img src="images/logo.png" alt="" class="img-fluid logo-black" >
+               </div>
+              </div>
+            <div class="d-flex ">
+            <div class=" d-flex phone col-5 ">
+                <i class="bi bi-telephone  col-2 mx-2"></i>
+                <div class="lh-1 col-10" >
+                    <p class="mb-1 "><a href="" class="text-dark text-decoration-none">Contact us 24/7</a></p>
+                    <p class="fw-bold num"><a href="" class="text-dark text-decoration-none">(+92) 3942 7879</a></p>
+                </div>
+            </div> 
+             <div class="col-7 d-flex searchbar ">
+              <div class="position-relative w-100 mx-auto" style="max-width: 600px; z-index: 1050;"
+                            id="searchContainer">
+
+                <form class="d-flex bg-secondary-subtle p-2  rounded-2  position-relative z-1">
+                    <select class="form-select bg-secondary-subtle fw-bold  w-auto "  aria-label="Size 3 select example"  aria-label="Default select example">
+                    <option selected >All Categories</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    </select>
+                    <input type="search" placeholder="searsh For Pr" id="searchInput" class="bg-secondary-subtle border border-top-0 border-end-0 border-bottom-0 border-dark-subtle px-2 w-50">
+                    <i class="bi bi-search   text-light rounded-2 fw-bolder bg-black  p-2 "></i>
+                </form>
+                <div id="searchDropdown"
+                                class="position-absolute start-50 translate-middle-x top-0 bg-white px-4 rounded shadow d-none z-0 "
+                                style="min-width: 110%; margin-top: -1rem;height: 300px;">
+                                <div style="padding-top: 23%;">
+                                    <p class="my-3 fw-bold">Popular search</p>
+                                    <div class="d-flex flex-wrap gap-2 ">
+                                        <a href="#"
+                                            class="btn border-secondary-subtle buy-red-hover btn-sm">smartphone</a>
+                                        <a href="#" class="btn border-secondary-subtle buy-red-hover btn-sm">laptop</a>
+                                        <a href="#" class="btn border-secondary-subtle buy-red-hover btn-sm">home &
+                                            decor</a>
+                                        <a href="#"
+                                            class="btn border-secondary-subtle buy-red-hover btn-sm">furniture</a>
+                                        <a href="#" class="btn border-secondary-subtle buy-red-hover btn-sm">camera</a>
+                                        <a href="#"
+                                            class="btn border-secondary-subtle buy-red-hover btn-sm">furniture</a>
+                                        <a href="#" class="btn border-secondary-subtle buy-red-hover btn-sm">camera</a>
+                                        <a href="#"
+                                            class="btn border-secondary-subtle buy-red-hover btn-sm">furniture</a>
+                                        <a href="#"
+                                            class="btn border-secondary-subtle buy-red-hover btn-sm">smartphone</a>
+                                        <a href="#" class="btn border-secondary-subtle buy-red-hover btn-sm">laptop</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        <div id="searchOverlay"></div>
+                      </div>
+            </div>
+            <div class="d-flex  col-4 gap-2 align-items-center justify-content-end icons-right">
+<div class="d-none tab-search">             
+<button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvasRight"><i class="bi bi-search"></i></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header d-flex align-items-center w-100 bg-body-secondary p-0 border-bottom">
+  <div class="row w-100 m-0">
+    <div class="col-10 p-0">
+      <select class="form-select text-uppercase fw-bold bg-body-secondary text-black border-0 rounded-0 h-100">
+        <option selected>All Categories</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    <div class="col-2 d-flex align-items-center justify-content-center p-0">
+      <button type="button" class="btn-close m-0 p-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+  <div class="offcanvas-body" id="offcanvas">
+        <form class="d-flex border border-dark-subtle rounded-2 overflow-hidden w-75 p-1  m-auto">
+          <input type="email" placeholder="search for address" class=" p-2 place-holder flex-grow-1 border-0">
+          <button type="submit" class="bg-black border-0 rounded-2 px-3">
+            <i class="bi b bi-search text-white"></i>
+          </button>
+        </form>
+
+<div class="d-flex flex-wrap mt-5 gap-3">
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href=""  class="mb-0 text-center text-black text-decoration-none">smartphone</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href=""  class="mb-0 text-center  text-black text-decoration-none">tablet</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href="" class="mb-0 text-center  text-black text-decoration-none">controller</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href="" class="mb-0 text-center  text-black text-decoration-none">furniture</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href=""  class="mb-0 text-center  text-black text-decoration-none">laptop</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href=""  class="mb-0 text-center  text-black text-decoration-none">playstation</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href=""  class="mb-0 text-center  text-black text-decoration-none">womens fashion</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a href=""  class="mb-0 text-center text-black text-decoration-none  text-black text-decoration-none">home & decore</a>
+  </div>
+  <div class="border border-1 px-3 p-1 rounded-2 d-flex align-items-center justify-content-center border-red" >
+    <a   href="" class="mb-0 text-center text-black text-decoration-none">camera</a>
+  </div>
+
+</div>
+
+  </div>
+</div>
+</div> 
+            <div class="d-flex country">    
+          <div class="dropdown language-dropdown">
+            <button type="button" class="btn">
+              <img src="images/english.png" alt="English"> English <i class="bi bi-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu container">
+              <li><a class="dropdown-item red" href="#"><img src="images/espanol.png"> Español</a></li>
+              <li><a class="dropdown-item red" href="#"><img src="images/francais.png"> Français</a></li>
+              <li><a class="dropdown-item red" href="#"><img src="images/portugues.png"> Portugues</a></li>
+            </ul>
+          </div>
+
+            <div class="dropdown language-dropdown">
+            <button type="button" class="btn  " >
+            USD
+            <i class="bi bi-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu container">
+            <li><a class="dropdown-item red" href="#">EUR</a></li>
+            <li><a class="dropdown-item red" href="#">BRL</a></li>
+            </ul>
+            </div>
+            </div>
+<div >
+<div class="account-btn-wrapper">
+  <button type="button" class="btn pb-2 m-0  fs-6" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    <i class="bi bi-person "></i><span> Account</span>
+  </button>
+</div>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content position-relative overflow-hidden rounded-1">
+      <button type="button"class="btn-close bg-dark text-white position-absolute top-0 end-0 p-2 rounded-end-0 rounded-top-0 " data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body p-0">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="images/login-banner.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Login Banner">
+          </div>
+          <div class="col-md-6 p-3 align-content-center">
+            <form  class="pb-3 border-bottom border-light-subtle pb-5">
+              <p class="text-center fw-bold mt-5 fs-4">Login</p>
+
+              <div class="mb-3">
+                <input type="email" class="form-control bg-body-secondary rounded-1" placeholder="Username or Email">
+              </div>
+
+              <div class="mb-3">
+                <input type="password" class="form-control bg-body-secondary rounded-1" placeholder="Password">
+              </div>
+
+              <div class="mb-3 form-check d-flex justify-content-between">
+                <div>
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <div>
+                  <a href="#" class="text-body-tertiary text-decoration-none  hover-line">Forget password</a>
+                </div>
+              </div>
+
+              <button type="submit" class="btn bg-dark text-light w-100 rounded-1 p-2 ">Log in</button>
+            </form>
+            <p class="text-center mt-2 text-body-tertiary">You don't have an account yet? <a href="#"class="text-dark text-decoration-none  hover-line">Register Now</a></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="d-flex">
+<button type="button" class="btn  position-relative cart d-flex">
+  <i class="bi bi-heart fs-5 " ></i> <span class="position-absolute badge border border-light rounded-circle bg-danger text-center p-1 zero-icon top-0">0</span>
+</button>  
+
+<button type="button" class="btn  position-relative cart" data-bs-toggle="offcanvas"data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" >
+  <i class="bi bi-cart2 fs-5"></i> <span class="position-absolute badge border border-light rounded-circle bg-danger text-center p-1 zero-icon">0</span>
+</button>
+<div class="offcanvas offcanvas-end container" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header ">
+    <h5 id="offcanvasRightLabel">Shopping Cart <span class="fs-6 text-body-tertiary"> (0 items)</span></h5>
+    <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="d-flex justify-content-center  m-5">
+    <i class="bi bi-cart-x  text-body-tertiary m-5 "></i>
+    </div>
+    <div class="d-flex flex-column border-top border-dark-subtle pb-3  ">
+        <p class="fs-6 m-auto">Free Shipping on All Orders Over <span class="text-danger fs-6">250$ </span></p>
+        <button class=" bg-black text-light my-2 w-100 p-3 text-uppercase fw-bold button ">continue shopping</button>
+
+    </div>
+</div>
+</div>
+    
+</div>
+
+            </div>
+
+
+        
+        </div>
+        </div>
+    </nav>
+    <nav  class="border-bottom border-light-subtle p-2 nav-two">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                <div class="d-flex justify-content-between">
+                <div>
+                    
+                    <button class="btn border border-top-0 border-start-0 border-bottom-0 border-light-subtle rounded-0 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi bi-list fw-bolder"></i>    SHOP BY Categories </button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header bg-black">
+                <i class="bi bi-list text-light fs-5"></i> 
+                <h5 class="offcanvas-title fs-6  text-light" id="offcanvasWithBothOptionsLabel"> SHOP BY CATEGORIES</h5>
+            </div>
+            <div class=" m-2">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/fashion.png" class=" p-2  icon">
+                    </a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        fashion
+                    </a>
+                    </div>    
+                   <div class="btn-group dropend">
+                  <button type="button" class="btn btn-group-dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a href="" class=" slide-up-tab"><i class="bi bi-chevron-right text-dark"></i></a>
+                  </button>
+                  <div class="dropdown-menu  p-2">
+                    <div class="d-flex justify-content-around p-2">
+                      <div >
+                        <h4>Women</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+
+                      </div>
+                      <div>
+                        <h4>Men</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                      </div>
+
+                    </div>
+                    <div class="bg-girl  color-orange mb-2 width-pic ">
+                      <div class="w-50  text-white p-3  text-center">
+                        <p>New Collection</p>
+                      <p class="fs-3">Bobby Caro Dress</p>
+                      <button class="border border-1 border-light p-2 px-3 text-center color-orange rounded-2 mt-0"> <a href="" class="text-light text-decoration-none">shop now</a></button>
+                      
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+                
+                <hr class="w-100 m-1">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/phone.png" class=" p-2  icon"></a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        phone & tablets
+                    </a>
+                    </div>    
+
+
+                <div class="btn-group dropend">
+                  <button type="button" class="btn btn-group-dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a href="" class=" slide-up-tab"><i class="bi bi-chevron-right text-dark"></i></a>
+                  </button>
+                  <div class="dropdown-menu  p-2">
+                    <div class="d-flex justify-content-around p-2">
+                      <div >
+                        <h4>Women</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+
+                      </div>
+                      <div>
+                        <h4>Men</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                      </div>
+
+                    </div>
+                    <div class="banner  mb-2 width-pic ">
+                      <div class="w-50  text-black p-3  text-center">
+                        <p>New Collection</p>
+                      <p class="fs-3">UP TO 50% OFF</p>
+                      <button class="border border-1 border-black p-2 px-3 text-center bg-light rounded-2 mt-0"> <a href="" class="text-black text-decoration-none">shop now</a></button>
+                      
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+                <hr class="w-100 m-1">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/laptop.png" class=" p-2  icon"></a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                       laptop & computer
+                    </a>
+                    </div>    
+                </div>
+                <hr class="w-100 m-1">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/aduio.png" class=" p-2  icon"></a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        Aduio & videos
+                    </a>
+                    </div>    
+                </div>
+                <hr class="w-100 m-1">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/photo.png" class=" p-2  icon"></a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        camera & photo
+                    </a>
+                    </div>    
+                </div>
+                <hr class="w-100 m-1">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/bueaty.png" class=" p-2  icon"></a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        bueaty
+                    </a>
+                    </div>    
+                  <div class="btn-group dropend">
+                  <button type="button" class="btn btn-group-dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a href="" class=" slide-up-tab"><i class="bi bi-chevron-right text-dark"></i></a>
+                  </button>
+                  <div class="dropdown-menu  p-2">
+                    <div class="d-flex justify-content-around p-2">
+                      <div >
+                        <h4>Women</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+
+                      </div>
+                      <div>
+                        <h4>Men</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                      </div>
+
+                    </div>
+                    <div class="cosm  mb-2 width-pic ">
+                      <div class="w-50  text-white p-3  text-center">
+                        <p>New Collection</p>
+                      <p class="fs-3">UP TO 50% OFF</p>
+                      <button class="border border-1 border-light p-2 px-3 text-center bg-light rounded-2 mt-0"> <a href="" class="text-danger-emphasis text-decoration-none">shop now</a></button>
+                      
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+                <hr class="w-100 m-1">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/game.png" class=" p-2  icon"></a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        game
+                    </a>
+                    </div>    
+
+
+                
+                </div>
+                <hr class="w-100 m-1">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <div >
+                    <a href=""><img src="images/autopart.png" class=" p-2  icon "></a>
+                    <a href="" class=" text-dark text-decoration-none a-hover fw-bold">                        autopart
+                    </a>
+                    </div>    
+                   <div class="btn-group dropend">
+                  <button type="button" class="btn btn-group-dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a href="" class=" slide-up-tab"><i class="bi bi-chevron-right text-dark"></i></a>
+                  </button>
+                  <div class="dropdown-menu  p-2">
+                    <div class="d-flex justify-content-around p-2">
+                      <div >
+                        <h4>Women</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+
+                      </div>
+                      <div>
+                        <h4>Men</h4>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                        <p class="red">Blazers</p>
+                      </div>
+
+                    </div>
+                    <div class="autopart  mb-2 width-pic ">
+                      <div class="w-50  text-white p-3  text-center">
+                        <p>New Collection</p>
+                      <p class="fs-3">UP TO 50% OFF</p>
+                      <button class="border border-1 border-light p-2 px-3 text-center bg-light rounded-2 mt-0"> <a href="" class="text-black text-decoration-none">shop now</a></button>
+                      
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+                <hr class="w-100 m-1">
+                </div>
+</div>
+
+                </div>
+                <div class="d-flex">
+
+<div class="d-flex">
+  <div class="dropdown   me-1">
+    <button type="button" class="btn " id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+      Home Page
+      <i class="bi bi-chevron-down"></i>
+    </button>
+    <div class="dropdown-menu  full-width-dropdown  justify-content-around  p-5 custom-offcanvas-top" aria-labelledby="dropdownMenuOffset">
+    <div class="d-flex justify-content-around  wide-dropdown offcanvas-body">
+        <div class="d-flex  ">
+    <div class="d-flex flex-wrap container justify-content-around ">
+            <div class=" shadow-img p-3 mb-5 bg-white rounded  w-25">
+            <a href=""><img src="images/supermarket1.jpg" class="w-100"></a>
+            <p class="fw-bold text-center mt-2">supermarket-01</p>
+            </div> 
+            <div class=" shadow-img p-3 mb-5 bg-white rounded w-25">
+            <a href=""><img src="images/supermarket2.jpg" class="w-100"></a>
+            <p class="fw-bold text-center  mt-2">supermarket-01</p>
+            </div> 
+            <div class=" shadow-img p-3 mb-5 bg-white rounded w-25">
+            <a href=""><img src="images/supermarket3.jpg" class="w-100"></a>
+            <p class="fw-bold text-center  mt-2">supermarket-01</p>
+            </div> 
+            <div class=" shadow-img p-3 mb-5 bg-white rounded w-25">
+            <a href=""><img src="images/supermarket4.jpg" class="w-100"></a>
+            <p class="fw-bold text-center  mt-2">supermarket-01</p>
+            </div> 
+            <div class=" shadow-img p-3 mb-5 bg-white rounded w-25">
+            <a href=""><img src="images/mega-home-5.jpg" class="w-100"></a>
+            <p class="fw-bold text-center  mt-2">supermarket-01</p>
+            </div> 
+            <div class=" shadow-img p-3 mb-5 bg-white rounded w-25">
+            <a href=""><img src="images/mega-home-6.jpg" class="w-100"></a>
+            <p class="fw-bold text-center  mt-2">supermarket-01</p>
+            </div> 
+        </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+            </div>
+<div class="d-flex">
+  <div class="dropdown   me-1">
+    <button type="button" class="btn " id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+      Categories
+      <i class="bi bi-chevron-down"></i>
+    </button>
+    <div class="dropdown-menu  full-width-dropdown  justify-content-around  p-5" aria-labelledby="dropdownMenuOffset">
+    <div class="d-flex justify-content-around  wide-dropdown">
+        <div class="d-flex  ">
+        <div class="lh-lg mx-5" >
+    <a class="dropdown-item fw-bold fs-5" href="#">shop layout</a>
+    <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn"  href="#">Something else here</a>
+    <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn"  href="#">Something else here</a>
+    <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn"  href="#">Something else here</a>
+    </div>
+    <div class="lh-lg mx-5">
+      <a class="dropdown-item fw-bold fs-5 " href="#">shop layout</a>  
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+
+    </div>
+    </div>
+    <div class="p-3">
+    <a href=""><img src="images/lap.png" alt=""></a>    
+    </div>
+    </div>
+    </div>
+  </div>
+
+            </div>
+  <div class="dropdown me-1">
+    <button type="button" class="btn  " id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+      products
+      <i class="bi bi-chevron-down"></i>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+      <li><a class="dropdown-item" href="#">Variable – Dropdown Attribute</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><a class="dropdown-item" href="#">Variable – Dropdown Attribute</a></li>
+      <li><a class="dropdown-item" href="#">Variable – Dropdown Attribute</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+  <div class="d-flex">
+  <div class="dropdown   me-1">
+    <button type="button" class="btn " id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+      pages
+      <i class="bi bi-chevron-down"></i>
+    </button>
+    <div class="dropdown-menu  full-width-dropdown  justify-content-around  p-5" aria-labelledby="dropdownMenuOffset">
+    <div class="d-flex justify-content-center  wide-dropdown">
+        <div class="d-flex  justify-content-around">
+        <div class="lh-lg mx-5" >
+    <a class="dropdown-item fw-bold fs-5" href="#">shop layout</a>
+    <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn"  href="#">Something else here</a>
+    <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn"  href="#">Something else here</a>
+    <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn"  href="#">Something else here</a>
+    </div>
+    <div class="lh-lg mx-5">
+      <a class="dropdown-item fw-bold fs-5 " href="#">shop layout</a>  
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+
+    </div>
+    <div class="lh-lg mx-5">
+      <a class="dropdown-item fw-bold fs-5 " href="#">shop layout</a>  
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+
+    </div>
+    <div class="lh-lg mx-5">
+      <a class="dropdown-item fw-bold fs-5 " href="#">shop layout</a>  
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Another action</a>
+      <a class="dropdown-item btn" href="#">Something else here</a>
+      <a class="dropdown-item btn" href="#">Action</a>
+
+    </div>
+    </div>
+    </div>
+
+        </div>
+  </div>
+            <div>
+    <button type="button" class="btn " id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+      About Us
+      
+    </button>
+    </div>
+            <div>
+    <button type="button" class="btn " id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false">
+      Blog
+      
+    </button>
+    </div>
+            <div>
+    <button type="button" class="btn " id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" viewBox="0 0 15 24">
+  <path d="M21 10.5c-.83 0-1.5-.67-1.5-1.5S20.17 7.5 21 7.5V5c0-1.1-.9-2-2-2H5C3.9 3 3 3.9 3 5v2.5
+           c.83 0 1.5.67 1.5 1.5S3.83 10.5 3 10.5V14c.83 0 1.5.67 1.5 1.5S3.83 17.5 3 17.5V19
+           c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5V10.5z"
+        fill="white" stroke="black" stroke-width="1.5" />
+  <text x="8" y="16" font-size="10" font-weight="bold" fill="black">%</text>
+</svg>
+Best Discounts
+      
+    </button>
+    </div>
+    </div>
+    </div>
+   </div>
+                </div>
+    <div >
+         <button type="button" class="btn fw-medium" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" >
+      recently viewed
+      <i class="bi bi-chevron-down"></i>
+      
+    </button>
+    <div class="dropdown-menu  full-width-dropdown  justify-content-around  p-5" aria-labelledby="dropdownMenuOffset">
+    <div class="d-flex justify-content-center  wide-dropdown">
+<div class="d-flex justify-content-center container  row">
+<div class="border border-light-subtle bg-white p-1 shadow-img col-2">
+  <div class="container">
+    <div class="position-relative image-wrapper">
+      <img src="images/headphones.jpg" alt="" class="w-100">
+      <div class="icons-overlay d-flex flex-column position-absolute top-0 end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-search bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-cart2 bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+      </div>
+    </div>
+    <p class="mt-2">Lorem ipsum dolor, sit amet consectetur</p>
+    <h3>90$</h3>
+  </div>
+</div>
+<div class="border border-light-subtle bg-white p-1 shadow-img col-2">
+  <div class="container">
+    <div class="position-relative image-wrapper">
+      <img src="images/headphones.jpg" alt="" class="w-100">
+      <div class="icons-overlay d-flex flex-column position-absolute top-0 end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-search bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-cart2 bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+      </div>
+    </div>
+    <p class="mt-2">Lorem ipsum dolor, sit amet consectetur</p>
+    <h3>90$</h3>
+  </div>
+</div>
+<div class="border border-light-subtle bg-white p-1 shadow-img col-2">
+  <div class="container">
+    <div class="position-relative image-wrapper">
+      <img src="images/headphones.jpg" alt="" class="w-100">
+      <div class="icons-overlay d-flex flex-column position-absolute top-0 end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-search bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-cart2 bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+      </div>
+    </div>
+    <p class="mt-2">Lorem ipsum dolor, sit amet consectetur</p>
+    <h3>90$</h3>
+  </div>
+</div>
+<div class="border border-light-subtle bg-white p-1 shadow-img col-2">
+  <div class="container">
+    <div class="position-relative image-wrapper">
+      <img src="images/headphones.jpg" alt="" class="w-100">
+      <div class="icons-overlay d-flex flex-column position-absolute top-0 end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-search bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-cart2 bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+      </div>
+    </div>
+    <p class="mt-2">Lorem ipsum dolor, sit amet consectetur</p>
+    <h3>90$</h3>
+  </div>
+</div>
+<div class="border border-light-subtle bg-white p-1 shadow-img col-2">
+  <div class="container">
+    <div class="position-relative image-wrapper">
+      <img src="images/headphones.jpg" alt="" class="w-100">
+      <div class="icons-overlay d-flex flex-column position-absolute top-0 end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-search bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+        <i class="bi bi-cart2 bg-white p-2 text-black rounded-1 shadow-img icon"></i>
+      </div>
+    </div>
+    <p class="mt-2">Lorem ipsum dolor, sit amet consectetur</p>
+    <h3>90$</h3>
+  </div>
+</div>
+
+    </div>
+
+
+    </div>
+    </div>
+    
+    </div>
+
+    </nav>
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
+<section class="container-fluid">
+  <div class="row ">
+
+    <div class="col-12 col-lg-8  p-0 " style="height:560px;">
+      <div id="carouselExampleIndicators" class="carousel slide w-100 h-100 mb-0" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousal rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="carousal rounded-circle"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="carousal rounded-circle "></button>
+  </div>
+  <div class="carousel-inner w-100 h-100 ">
+    <div class="carousel-item active girl w-100 h-100  animate__animated animate__fadeInRightBig align-content-center img-fluid ">
+        <div class="text-light m-5 col  ">
+            <p class="fs-4 animate__animated animate__fadeInRightBig">Up to 50% off</p>
+            <h2 class="fs-1 col-3 fw-bolder animate__animated animate__fadeInLeftBig">Body Lotion SPF lab 50+ PA+++++</h2>
+            <button type="button" class="fw-bold col-2 p-2 bg-light border-0 rounded-2  mt-3 black-white">shop now</button>
+        </div>
+    </div>
+    <div class="carousel-item photo animate__animated animate__fadeInRightBig w-100 h-100 align-content-center img-fluid">
+      <div class="text-light m-5 col">
+            <p class="fs-4 animate__animated animate__fadeInRightBig">Up to 50% off</p>
+            <h2 class="fs-1 w-25 animate__animated animate__fadeInLeftBig">Body Lotion <span class="w-50"> SPF lab 50+</span> PA+++++</h2>
+            <button type="button" class="fw-bold col-2 p-2 bg-light border-0 rounded-2  mt-3 black-white">shop now</button>
+        </div>
+    </div>
+    <div class="carousel-item chair w-100 h-100 align-content-center animate__animated animate__fadeInRightBig img-fluid">
+      <div class="text-light m-5 col">
+            <p class="fs-4 animate__animated animate__fadeInRightBig">Up to 50% off</p>
+            <h2 class="fs-1 w-25 animate__animated animate__fadeInLeftBig">Body Lotion SPF lab 50+ PA+++++</h2>
+            <button type="button" class="fw-bold col-2 p-2 bg-light border-0 rounded-2  mt-3 black-white">shop now</button>
+        </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+
+    <div class="col-12 col-lg-4 p-0 ">
+      <div class="h-50 right-top w-100 bg-body-secondary ">
+        <div class="d-flex">
+          <div class="m-4 col-6">
+            <p class="fw-bold fs-6 pt-2 pb-0">BLACK FRIDAY</p>
+            <h2 class="fs-1  w-75 fw-bolder pt-0">Big Sale Eyeshadow</h2>
+            <p class="pb-1">Over +100 items</p>
+            <button type="button" class="fw-normal  w-50 py-1 bg-body-secondary rounded-1 border-1 shop">shop now</button>
+          </div>
+        </div>
+      </div>
+      <div class="h-50 bg-transparent right-bottom w-100 position-relative overflow-hidden  ">
+        <p class="position-absolute bg-danger p-3  text-center fw-bold text-light fs-3 rounded-circle red-dec"><sup>$</sup>29</p>
+        <div class="d-flex">
+          <div class="m-4 col-6 ">
+            <p class="fw-bold">NEW COLLECTION</p>
+            <h2 class="fs-2 w-100 fw-bolder">Puffer Jacket 30% off</h2>
+            <p>Best jacket in year</p>
+            <button type="button" class="w-50 fw-normal py-1 bg-light-subtle rounded-1 border-1 shop">shop now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container mt-4">
+  <div class="row text-center">
+<div class="col-6 col-lg-3 px-3 py-4">
+  <div class="d-flex align-items-center gap-3 iconss ">
+    <i class="bi bi-truck fs-2 text-body-tertiary"></i>
+    <div>
+      <p class="fw-bold mb-1">Fast, Free Shipping</p>
+      <p class="text-body-secondary mb-0">On orders over $50</p>
+    </div>
+  </div>
+  <div class="border-h"></div>
+</div>
+
+    <div class="col-6 col-lg-3 px-3 py-4">
+      <div class="d-flex align-items-center gap-3 iconss ">
+        <i class="bi  bi-clock fs-2  text-body-tertiary"></i>
+        <div class="text-start">
+          <p class="fw-bold mb-1">Next Day Delivery</p>
+          <p class="text-body-secondary mb-0">Free– spend over $99</p>
+        </div>
+      </div>
+      <div class="border-h"></div>
+    </div>
+    <div class="col-6 col-lg-3 px-3 py-4">
+      <div class="d-flex align-items-center gap-3 iconss ">
+        <i class="bi  bi-percent fs-2 text-body-tertiary"></i>
+        <div class="text-start">
+          <p class="fw-bold mb-1">Low Price Guarantee</p>
+          <p class="text-body-secondary mb-0">We offer competitive prices </p>
+        </div>
+      </div>
+      <div class="border-h"></div>
+    </div>
+    <div class="col-6 col-lg-3 px-3 py-4">
+      <div class="d-flex align-items-center gap-3 iconss ">
+        <i class="bi bi-hand-thumbs-up fs-2 text-body-tertiary"></i>
+        <div class="text-start">
+          <p class="fw-bold mb-1">Quality Guarantee</p>
+          <p class="text-body-secondary mb-0">We Guarantee Our Products</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- //////////////////////////////////////////////////////////////--> 
+<section class="my-5">
+    <div class="owl-carousel  " id="div1">
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/cosmetic.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute  text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/fashion.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute   text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/headphones.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/handbag.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute  text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/decor.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute  text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/autopart.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute   text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/smartphone.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute   text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+    <div class=" text-center">
+      <div class="item  position-relative">
+      <a href="">
+      <img src="images/laptop.jpg" alt="" >
+      <i class="bi bi-arrow-right-short  position-absolute text-light animate__animated animate__slideInLeft"></i>
+      </a>
+      </div>
+      <p class="fw-bold mt-2">cosmetic</p>
+    </div>
+
+  </div>
+</section>
+<section class="container align-items-center mb-5">
+  <div class="border border-1 border-black rounded-2 w-100 p-3">
+    <p class="text-center fs-6 fw-medium m-0">Super discount for your  <span class="fw-bold "> First purchase </span><span class="text-danger border-bottom border-danger coupon ">COUPON25 </span>  Use discount code in the checkout!</p>
+  </div>
+
+</section>
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+<section class="container my-5 position-relative  "id="div2" >
+  <h2 class="fw-bolder  mb-5">Flash Deals</h2>
+  <div class="carousel-wrapper position-relative">
+  <button id="custom-prev2" class="custom-prev position-absolute top-50 start-0  bg-d text-dark border-0 p-2">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+
+  <button id="custom-next2" class="custom-next position-absolute top-50 end-0  bg-light text-dark border-0 p-2">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+  <div class="owl-carousel   position-relative">
+
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/lap.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+      <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+        <div class="d-flex align-items-center gap-2 mb-3">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-half"></i>
+    </div>
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2 ">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon  d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/gray.t.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+    <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+    <div class="d-flex align-items-center gap-2 mb-3">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-half"></i>
+    </div>
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2 ">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/clock.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+    <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+    <div class="d-flex align-items-center gap-2 mb-3">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-half"></i>
+    </div>
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2 ">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon " data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/tool.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+      <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+    <div class="d-flex align-items-center gap-2 mb-3">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-half"></i>
+    </div>
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1  icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon " data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/cosmetics1.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+    <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+        
+        <div class="d-flex align-items-center gap-2 mb-3">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-half"></i>
+    </div>
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon " data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+
+   
+  </div>
+ </div>
+
+</section>
+<!-- ////////////////////////////////////////////////// -->
+<section class="container mb-5 ">
+  <div class="row d-flex flex-wrap">
+    <div class="col-12 col-lg-3 " >
+      <div class="col-12 car-back  car align-content-end  rounded-3" style="height:300px;">
+        <h3 class="text-light text-center w-75 m-auto pb-4">SALE 10% OFF TIRES MICHLIN</h3>
+
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 ">
+              <div class="col-12 begei-back rounded-3 sofa pt-4 lh-1" style="height:300px;">
+              <p class="text-warning text-center">NEW COLLECTION</p>
+              <h3 class="text-center fw-bolder">Sofa Crafted in UK</h3>
+              <div class="d-flex justify-content-center pt-3">
+                <a href="" class="text-black text-decoration-none underline-master fw-bolder">
+                  <span class="fs-6">Shop now </span><i class="bi bi-arrow-right-short fs-6"></i>
+                </a>
+              </div>
+
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 ">
+                <div class="col-12 shampoo-back shampoo rounded-3 align-content-end " style="height:300px;">
+                <p  class="text-light text-center w-75 m-auto pb-4 fs-3">steals under $25</p>
+      </div>
+    </div> 
+
+  </div>
+
+</section>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section class="container my-5">
+  <div class="row   justify-content-between align-items-center mb-4  pb-4">
+    <div class="col-md-5  col-6"><h2 class="fw-bolder  ">New arrivals</h2></div>
+    <div class="col-md-7 col-12 d-flex top-text">
+
+      <ul class="nav  " id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link-1 active text-black  underline-left " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-Fashion" aria-selected="true">Fashion</button>
+  </li> 
+  <li class="nav-item" role="presentation">
+    <button class="nav-link-1 text-black underline-left " id="pills-profile-tab " data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-Phone & Tablet" aria-selected="false">Phone & Tablet</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link-1 text-black underline-left" id="pills-contact-tab " data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-Home & Decor" aria-selected="false">Home & Decor</button>
+  </li>
+  <li class="nav-item " role="presentation">
+    <button class="nav-link-1 text-black underline-left" id="pills-Beauty-tab " data-bs-toggle="pill" data-bs-target="#pills-Beauty" type="button" role="tab" aria-controls="pills-Beauty & Health" aria-selected="false">Beauty & Health</button>
+  </li >
+</ul>
+<div class="d-flex gap-3 align-content-center align-items-center">
+<span class="custom-border" ></span>
+<span class="underline-master" ><a href="" class="text-black text-decoration-none"> See All Products </a>  </span>
+</div>
+</div>
+</div>
+<div class="tab-content " id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+      <div >
+    <div class="row rounded-2  ">
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute position-relative top-0 w-100 h-100 p-4 a border">
+  <p class="position-absolute fw-medium bg-danger text-center text-white rounded-1 col-1">hot</p>
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span>s</p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+
+      
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-absolute  top-0 w-100 h-100 p-2 a border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="col-md-4 col-6 position-relative  special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute top-0 w-100 h-100 p-4 a border">
+  
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-lg-absolute top-0 w-100 h-100 p-4 a  border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill  "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="comper">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div >
+    <div class="row rounded-2  ">
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute position-relative top-0 w-100 h-100 p-4 a border">
+  <p class="position-absolute fw-medium bg-danger text-center text-white rounded-1 col-1">hot</p>
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span>s</p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+
+      
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-absolute  top-0 w-100 h-100 p-2 a border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="col-md-4 col-6 position-relative  special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute top-0 w-100 h-100 p-4 a border">
+  
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-lg-absolute top-0 w-100 h-100 p-4 a  border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill  "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="comper">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+          <div >
+    <div class="row rounded-2  ">
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute position-relative top-0 w-100 h-100 p-4 a border">
+  <p class="position-absolute fw-medium bg-danger text-center text-white rounded-1 col-1">hot</p>
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span>s</p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+
+      
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-absolute  top-0 w-100 h-100 p-2 a border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6 ">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="col-md-4 col-6 position-relative  special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute top-0 w-100 h-100 p-4 a border">
+  
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-lg-absolute top-0 w-100 h-100 p-4 a  border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill  "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="comper">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+  <div class="tab-pane fade" id="pills-Beauty" role="tabpanel" aria-labelledby="pills-Beauty-tab">
+
+          <div >
+    <div class="row rounded-2  ">
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute position-relative top-0 w-100 h-100 p-4 a border">
+  <p class="position-absolute fw-medium bg-danger text-center text-white rounded-1 col-1">hot</p>
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+<div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span>s</p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right  d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+
+      
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-absolute  top-0 w-100 h-100 p-2 a border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-7  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-5 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="col-md-4 col-6 position-relative  special-card">
+<div class="bg-white position-absolute  top-0 w-100 h-100 p-4 a border">
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-md-7 col-10  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-md-5 col-2 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative special-card">
+<div class="bg-white position-absolute top-0 w-100 h-100 p-4 a border">
+  
+  <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-half "></i>
+      </div>
+    </div>
+  </div>
+<div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-md-7 col-10  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-md-5 col-2 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+      </div>
+      <div class="col-md-4 col-6 position-relative c special-card">
+        <div class="bg-white position-lg-absolute top-0 w-100 h-100 p-4 a  border">
+          <div class="row align-items-center mb-4">
+    <div class="col-6 text-center">
+      <img src="images/shoes.jpg" alt="" class="w-100 img-fluid">
+    </div>
+    <div class="col-md-6">
+      <p class="red   fs">Nike Air Max Unisex <span class="d-flex"> Men Sneaker Shoes </span></p>
+      <h3 class="fs-5">$148</h3>
+      <div class="d-flex align-items-center gap-2 mb-3 fs ">
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill "></i>
+        <i class="bi bi-star-fill  "></i>
+        <i class="bi bi-star-fill "></i>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center mt-5 d-none card-icon">
+  <div class="col-md-7 col-10  pe-1">
+    <button type="button" class="btn btn-light border-0 fs fw-bold w-100 py-1 text-black ">+ ADD TO CART</button>
+  </div>
+  <div class="col-md-5 col-2 d-flex gap-2  ps-1 fw-bold">
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-arrow-left-right d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="compare">
+      <i class="bi bi-search d-flex"></i>
+    </div>
+    <div class="flex-fill bg-light  text-black rounded-2 d-flex align-items-center justify-content-center" style="height: 30px;"data-bs-toggle="tooltip" data-bs-placement="top" title="comper">
+      <i class="bi bi-heart"></i>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+</div>
+    </div>
+
+  </div>
+
+</section>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div id="carouselExampleIndicatorss" class="carousel slide position-relative bg-secondary-subtle mt-5" data-bs-ride="carousel" style="min-height: 650px;">
+
+
+  <div class="position-absolute  d-flex align-items-center pe-5 white-card" >
+    <div class="bg-white p-4 rounded-2 shadow" style="width: 100%;">
+      <h3 class="fs-3 fw-bolder mb-4">Athletics Embroidered Relaxed Hoodie</h3>
+      <div class="mb-2 d-flex align-items-center gap-2">
+        <i class="bi bi-check-lg text-success fs-5"></i>
+        <span>4% cotton, 36% polyester</span>
+      </div>
+      <div class="mb-2 d-flex align-items-center gap-2">
+        <i class="bi bi-check-lg text-success fs-5"></i>
+        <span>Do not dry clean</span>
+      </div>
+      <div class="mb-3 d-flex align-items-center gap-2">
+        <i class="bi bi-check-lg text-success fs-5"></i>
+        <span>Machine wash</span>
+      </div>
+      <hr>
+      <div class="d-flex gap-3 align-items-center">
+        <p class="fs-3 fw-bolder mb-0">89$</p>
+        <s class="fs-5 text-secondary mb-0">120$</s>
+      </div>
+      <div class="d-flex gap-2 mt-3">
+        <button type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide-to="0" class="active p-0 border-0 bg-transparent black-h" aria-current="true" aria-label="Slide 1">
+          <img src="images/black-boy.webp" alt="Slide 1" class="img-thumbnail rounded" style="width: 60px; cursor: pointer; ">
+        </button>
+        <button type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide-to="1" class="p-0 border-0 bg-transparent black-h" aria-label="Slide 2">
+          <img src="images/beage boy.jpeg" alt="Slide 2" class="img-thumbnail rounded" style="width: 60px; cursor: pointer; ">
+        </button>
+        <button type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide-to="2" class="p-0 border-0 bg-transparent black-h" aria-label="Slide 3">
+          <img src="images/kohle-boy.jpg" alt="Slide 3" class="img-thumbnail rounded" style="width: 60px; cursor: pointer; ">
+        </button>
+        <button type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide-to="3" class="p-0 border-0 bg-transparent black-h" aria-label="Slide 4">
+          <img src="images/gray-boy.webp" alt="Slide 4" class="img-thumbnail rounded" style="width: 60px; cursor: pointer; ">
+        </button>
+      </div>
+      <div class="w-100 mt-3 ">
+      <button type="button " class="bg-black text-light w-100 p-2 rounded-3 white-black" >BUY NOW</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-inner" style="height: 650px; overflow: hidden;">
+  <p class="bg-danger fs-2 rounded-circle text-white fw-bold text-center position-absolute align-content-center pulse-img buy-card" 
+     style="height:90px; width:90px; top: 20%;left:36%;  z-index: 5;">-30%</p>
+
+<div class="carousel-item active black-boy">
+
+  </div>
+  <div class="carousel-item  beage-boy">
+  </div>
+  <div class="carousel-item  kohle-boy">
+  </div>
+  <div class="carousel-item  gray-boy">
+  </div>
+</div>
+
+  
+  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide="prev" style="width: 40px;">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorss" data-bs-slide="next" style="width: 40px;">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section class="container my-5 position-relative  "id="div3" >
+  <h2 class="fw-bolder  mb-5">Best Selling</h2>
+  <div class="carousel-wrapper position-relative">
+  <button id="custom-prev3" class="custom-prev position-absolute top-50 start-0  bg-d text-dark border-0 p-2">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+
+  <button id="custom-next3" class="custom-next position-absolute top-50 end-0  bg-light text-dark border-0 p-2">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+  <div class="owl-carousel   position-relative">
+
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/lap.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+      <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2 ">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon  d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/gray.t.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+    <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+ 
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2 ">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/clock.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+    <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2 ">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon " data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/tool.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+      <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1  icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon " data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative">
+    <img src="images/cosmetics1.jpg" alt="">
+    <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="d-flex">
+    <h5 class="">$69</h5> <s class="text-secondary ms-2">100$</s>
+    </div>
+        
+
+    <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6">-34%</span>
+    <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+        <i class="bi bi-heart bg-body-secondary  p-1 text-black rounded-1 icon " data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-arrow-left-right bg-body-secondary  p-1 text-black rounded-1 icon" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-search bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+        <i class="bi bi-cart2 bg-body-secondary  p-1 text-black rounded-1 icon d-block" data-bs-toggle="tooltip" data-bs-placement="left" title="add to card"></i>
+      </div>
+    </div>
+
+   
+  </div>
+ </div>
+
+</section>
+
+
+
+
+<section class="container my-5 position-relative  "id="div4" >
+  <h2 class="fw-bolder  mb-5">From Our Blog</h2>
+  <div class="carousel-wrapper position-relative">
+  <button id="custom-prev4" class="custom-prev position-absolute   bg-d text-dark border-0 p-2">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+
+  <button id="custom-next4" class="custom-next position-absolute  bg-light text-dark border-0 p-2">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+  <div class="owl-carousel   position-relative">
+
+    <div class="item p-2 d-flex flex-column position-relative ">
+      <div class="overflow-hidden rounded-3">
+    <img src="images/parfum.jpg" alt="" class="hvr-grow-rotate">
+    </div>
+    <div class="d-flex gap-5 mt-3">
+    <p class="fs-6 mb-1 red">cosmetic</p>
+    <p>By <span class="red">Myoui Mina </span></p>
+    </div>
+      <h5 class=""> <a href=""class="red text-black text-decoration-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt  .</p>
+      <div class="">
+      <button type="button "class="w-auto bg-white p-2 rounded-2 black">READ MORE</button>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative ">
+      <div class="overflow-hidden rounded-3">
+    <img src="images/computer.jpg" alt="" class="hvr-grow-rotate">
+    </div>
+    <div class="d-flex gap-5 mt-3">
+    <p class="fs-6 mb-1 red">cosmetic</p>
+    <p>By <span class="red">Myoui Mina </span></p>
+    </div>
+      <h5 class=""> <a href=""class="red text-black text-decoration-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt  .</p>
+      <div class="">
+      <button type="button "class="w-auto bg-white p-2 rounded-2 black">READ MORE</button>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative ">
+      <div class="overflow-hidden rounded-3">
+    <img src="images/carr.jpg" alt="" class="hvr-grow-rotate">
+    </div>
+    <div class="d-flex gap-5 mt-3">
+    <p class="fs-6 mb-1 red">cosmetic</p>
+    <p>By <span class="red">Myoui Mina </span></p>
+    </div>
+      <h5 class=""> <a href=""class="red text-black text-decoration-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt  .</p>
+      <div class="">
+      <button type="button "class="w-auto bg-white p-2 rounded-2 black">READ MORE</button>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative ">
+      <div class="overflow-hidden rounded-3">
+    <img src="images/girl.t.red.jpg" alt="" class="hvr-grow-rotate">
+    </div>
+    <div class="d-flex gap-5 mt-3">
+    <p class="fs-6 mb-1 red">cosmetic</p>
+    <p>By <span class="red">Myoui Mina </span></p>
+    </div>
+      <h5 class=""> <a href=""class="red text-black text-decoration-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt  .</p>
+      <div class="">
+      <button type="button "class="w-auto bg-white p-2 rounded-2 black">READ MORE</button>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative ">
+      <div class="overflow-hidden rounded-3">
+    <img src="images/iphone.jpg" alt="" class="hvr-grow-rotate">
+    </div>
+    <div class="d-flex gap-5 mt-3">
+    <p class="fs-6 mb-1 red">cosmetic</p>
+    <p>By <span class="red">Myoui Mina </span></p>
+    </div>
+      <h5 class=""> <a href=""class="red text-black text-decoration-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt  .</p>
+      <div class="">
+      <button type="button "class="w-auto bg-white p-2 rounded-2 black">READ MORE</button>
+      </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative ">
+      <div class="overflow-hidden rounded-3">
+    <img src="images/cosmetic-b.jpg" alt="" class="hvr-grow-rotate">
+    </div>
+    <div class="d-flex gap-5 mt-3">
+    <p class="fs-6 mb-1 red">cosmetic</p>
+    <p>By <span class="red">Myoui Mina </span></p>
+    </div>
+      <h5 class=""> <a href=""class="red text-black text-decoration-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt  .</p>
+      <div class="">
+      <button type="button "class="w-auto bg-white p-2 rounded-2 black">READ MORE</button>
+      </div>
+    </div>
+    
+
+
+</div>
+</div>
+
+</section>
+<section class="bg-secondary-subtle py-5 ">
+  <div class="d-flex flex-column justify-content-center align-content-center align-items-center container ">
+  <h3 class="">Looking for something else?</h3>
+    <form class="mt-4 w-60  position-relative bg-white rounded-2 overflow-hidden searsh">
+      <input type="search" class="border-0 w-100  p-3 " placeholder="searsh for products...">
+      <i class="bi bi-search position-absolute text-white bg-black py-2 px-3 rounded-2 "></i>
+    </form>
+<div class="container mt-5">
+  <div class="d-flex flex-wrap justify-content-center m-auto w-50 gap-2 searsh" >
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item ">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+    <span class="custom-border "></span>
+    <a href="#" class="red text-black text-decoration-none fs-6  px-2 py-1 flex-item">smartphone</a>
+  </div>
+</div>
+
+
+
+  </div>
+</section>
+
+
+<footer class="bg-black">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-md-2 col-12 me-5" >
+        <img src="images/logo (1).png" class="col-md-7 col-3 mb-3 ">
+        <div class="d-flex ">
+          <i class="bi bi-geo-alt text-white-50 px-2"></i>
+          <p class="text-white-50 ">29 SE 2nd Ave, Miami Florida 33131, United States</p>
+        </div>
+        <div class="d-flex ">
+        <i class="bi bi-envelope text-white-50  px-2"></i>
+          <p  class="text-white-50">info@example.com</p>
+          
+        </div> 
+        <p class="red text-white fs-5 fw-bold ">(+92) 3942 7879</p>
+      </div>
+      <div class=" col-md-6 col-12 shipping  my-4">
+        <div class="d-flex flex-row">
+      <div class="col-4">
+        <p class="fw-bold text-white ">shopping</p>
+        <ul class="list-unstyled text-white lh-lg">
+          <li class="text-white red">Wishlist</li>
+          <li class="text-white red">Shop by Brand</li>
+          <li class="text-white red">Offers</li>
+          <li class="text-white red">Track order</li>
+          <li class="text-white red">Size Guide</li>
+ 
+        </ul>
+      </div>
+      <div class="col-4 ">
+        <p class="fw-bold text-white ">shopping</p>
+        <ul class="list-unstyled text-white lh-lg">
+          <li class="text-white red">Wishlist</li>
+          <li class="text-white red">Shop by Brand</li>
+          <li class="text-white red">Offers</li>
+          <li class="text-white red">Track order</li>
+          <li class="text-white red">Size Guide</li>
+ 
+        </ul>
+      </div>
+      <div class="col-4">
+        <p class="fw-bold text-white ">shopping</p>
+        <ul class="list-unstyled text-white lh-lg">
+          <li class="text-white red">Wishlist</li>
+          <li class="text-white red">Shop by Brand</li>
+          <li class="text-white red">Offers</li>
+          <li class="text-white red">Track order</li>
+          <li class="text-white red">Size Guide</li>
+ 
+        </ul>
+      </div>
+      </div>
+      </div>
+      <div  class="col-md-3 col-12 my-2">
+        <p class="text-white fs-5 fw-bold ">Let’s keep in touch</p>
+        <form class="d-flex border border-dark-subtle rounded-2 overflow-hidden w-100">
+          <input type="email" placeholder="enter your email address" class="bg-black p-2 place-holder flex-grow-1 border-0">
+          <button type="submit" class="bg-black border-0 px-3">
+            <i class="bi bi-arrow-right text-white"></i>
+          </button>
+        </form>
+
+        <div class="d-flex  mt-4">
+              <i class="fa-brands fa-facebook-f fs-5 me-3 phone text-white"></i>
+              <i class="fa-brands fa-tiktok fs-5 me-3 phone text-white"></i>
+              <i class="fa-brands fa-youtube fs-5 me-3 phone text-white"></i>
+              <i class="fa-brands fa-twitter fs-5 me-3 phone text-white"></i>
+              <i class="fa-brands fa-instagram fs-5 phone text-white "></i>
+            </div>
+      </div>
+    </div>
+    <div class="justify-content-between border border-dark-subtle p-3 mb-3" >
+      <div class="p-3 px-5 row ">
+        <div class="col-md-4 col-12">
+        <div class=" d-flex  col">
+                <i class="bi bi-telephone  col-1 mx-3  text-white"></i>
+                <div class="lh-1 col-10" >
+                    <p class="mb-1 "><a href="" class="text-dark text-decoration-none text-white fw-bold">Didn't find what you were looking for?</a></p>
+                    <p class="fw-bold num"><a href="" class="text-dark text-decoration-none text-white hover-line">Contact us</a></p>
+                </div>
+            </div> 
+            </div>
+        <div class="col-md-4 col-12">
+        <div class=" d-flex  col">
+                <i class="bi bi-emoji-smile  fs-2 mx-3  text-white"></i>
+                <div class="lh-1 col-12" >
+                    <p class="mb-1 "><a href="" class="text-dark text-decoration-none text-white fw-bold">How can we help you today?</a></p>
+                    <p class="fw-bold num"><a href="" class="text-dark text-decoration-none text-white hover-line">Help Center</a></p>
+                </div>
+            </div> 
+            </div>
+        <div class="col-md-4 col-12">
+        <div class=" d-flex  col">
+                <i class="bi bi-telephone  col-1 mx-3  text-white"></i>
+                <div class="lh-1 col-10" >
+                    <p class="mb-1 "><a href="" class="text-dark text-decoration-none text-white fw-bold">We’d love to hear what you think!</a></p>
+                    <p class="fw-bold num"><a href="" class="text-dark text-decoration-none text-white hover-line">Give Feedback</a></p>
+                </div>
+            </div> 
+            </div>
+
+      </div>
+    </div>
+    <div class="row justify-content-between py-3 payment">
+      <div class="col-6">
+        <p class="text-white-50 font-s">Copyright © Merto. All Rights Reserved</p>
+      </div>
+      <div class="col-md-3 col-6">
+        <img src="images/payment-icons-1.png" class="w-100" >
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.21/jquery.zoom.min.js"></script>
+
+
+
+<script src="script.js">
+
+</script>
+
+
+</body>
+</html>

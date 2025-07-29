@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../final task(one)"
+		},
+		{
+			"path": "../../final task (two)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "final task(three)"
+	}
+}
